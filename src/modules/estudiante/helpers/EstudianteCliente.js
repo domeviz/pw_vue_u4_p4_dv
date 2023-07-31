@@ -21,7 +21,12 @@ export const eliminarEstudianteFachada=(id)=>{
 //El fetch solo es para el verbo GET
 //fetch es un metodo asincrono que debe tener await
 const obtenerEstudianteAPI= async(cedula)=>{
-    const data= await fetch(`http://localhost:8081/API/v1.0/Matricula/estudiantes/${cedula}`).then(r=>r.json());
+    //Aqui debe ir el puerto en el que esta funcionando la api
+    //Ejemplo: Spring esta en el 8080 y Visual en el 8081
+    //Se debe poner el puerto 8080 de Spring
+    //Y para buscar en el navegador es con el puerto 8081 de Visual 
+    //http://localhost:8081/
+    const data= await fetch(`http://localhost:8080/API/v1.0/Matricula/estudiantes/${cedula}`).then(r=>r.json());
     console.log(data);
 }
 
