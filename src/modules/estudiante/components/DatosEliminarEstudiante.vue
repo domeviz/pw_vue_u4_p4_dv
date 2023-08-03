@@ -15,7 +15,8 @@ export default {
     },
     methods: {
         async eliminarEstudiante() {
-            eliminarEstudianteFachada(this.id);
+            const eliminar=eliminarEstudianteFachada(this.id);
+            console.log(eliminar)
         },
     },
 }
