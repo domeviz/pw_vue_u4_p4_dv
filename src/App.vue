@@ -1,14 +1,23 @@
 <template>
-  <Estudiante/>
+  <!-- <Estudiante/> -->
+  <!-- <GuardaEstudiante/> -->
+  <!-- <ActualizarEstudiante/> -->
+  <EliminarEstudiante/>
 </template>
 
 <script>
+import ActualizarEstudiante from './modules/estudiante/pages/ActualizarEstudiante.vue';
 import Estudiante from './modules/estudiante/pages/Estudiante.vue'
+import GuardaEstudiante from './modules/estudiante/pages/GuardaEstudiante.vue';
+import EliminarEstudiante from './modules/estudiante/pages/EliminarEstudiante.vue';
 
 export default {
   name: 'App',
   components: {
-    Estudiante
+    // Estudiante,
+    // GuardaEstudiante,
+    // ActualizarEstudiante,
+    EliminarEstudiante
   }
 }
 </script>
