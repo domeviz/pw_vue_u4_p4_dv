@@ -11,7 +11,7 @@ const routes = [
        component: ActualizarEstudiante
      },
      {
-       path: '/consultar',
+       path: '/consultar/:cedula',
        name: 'consultar',
        component: ConsultarEstudiante
      }
