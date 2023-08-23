@@ -1,6 +1,6 @@
 <template>
     <input v-model="cedula" type="text">
-    <button @click="consultarEstudiante">Consultar</button>
+    <button class="btn btn-info" @click="consultarEstudiante">Consultar</button>
     <label for="">Nombre</label>
     <input v-model="nombre" type="text">
     <label for="">Apellido</label>

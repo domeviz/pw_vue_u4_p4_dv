@@ -7,7 +7,7 @@
     <input v-model="nombre" type="text">
     <label for="">Apellido</label>
     <input v-model="apellido" type="text">
-    <button @click="actualizarEstudiante">Actualizar</button>
+    <button class="btn btn-primary" @click="actualizarEstudiante">Actualizar</button>
 </template>
 
 <script>

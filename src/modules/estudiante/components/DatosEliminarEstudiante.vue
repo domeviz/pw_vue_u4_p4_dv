@@ -1,6 +1,6 @@
 <template>
     <input v-model="id" type="text">
-    <button @click="eliminarEstudiante">Eliminar</button>
+    <button class="btn btn-danger" @click="eliminarEstudiante">Eliminar</button>
 </template>
 
 <script>
