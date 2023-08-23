@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div class="student-box">
         <div class="form-group">
             <label for="cedula">Cedula</label>
@@ -14,6 +15,14 @@
             <input v-model="apellido" type="text" id="apellido">
         </div>
     </div>
+=======
+    <input v-model="cedula" type="text">
+    <button class="btn btn-info" @click="consultarEstudiante">Consultar</button>
+    <label for="">Nombre</label>
+    <input v-model="nombre" type="text">
+    <label for="">Apellido</label>
+    <input v-model="apellido" type="text">
+>>>>>>> 1d238b6 (Bootstrap)
 </template>
 
 <script>

@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
     <div class="student-box">
         <div class="form-group">
             <label for="id">ID</label>
@@ -6,6 +7,10 @@
         </div>
         <button class="btn btn-danger" @click="eliminarEstudiante">Eliminar</button>
     </div>
+=======
+    <input v-model="id" type="text">
+    <button class="btn btn-danger" @click="eliminarEstudiante">Eliminar</button>
+>>>>>>> 1d238b6 (Bootstrap)
 </template>
 
 <script>
